@@ -1,0 +1,91 @@
+html{
+    margin: 0px;
+    height: 100%;
+    overflow: scroll;
+    background: url(./../portfolio/images/wueh.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+header{
+    text-align: center;￼
+    font-size: larger;
+    color: black
+}
+
+h1{
+    font-family: 'Limelight', cursive;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 0px;
+    width: 100%; 
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+}
+ul li a:hover{
+    background-color: white;
+    color: gray;
+
+}
+
+
+.title{
+    position: absolute;
+    top: 21.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: white;
+    font-size: 75px;
+    font-family:'Limelight', cursive;
+}
+
+p{
+    color: white;
+}
+.h2{
+    position: absolute;
+    float: right;
+    top: 30%;
+    left: 20%;
+    transform: translate(30%,30%);
+}
+h2{
+    color: white;
+    font-family: 'Limelight', cursive;
+    font-size: medium;
+    font-style: italic;
+}
+
+.image{
+    position: inherit;
+    float: left;
+    height: 20px;
+    width: auto;
+}
+
+.outro{
+    position: absolute;
+    top: 90%;
+    left: 50%
+}
